@@ -1,0 +1,16 @@
+modules:
+  - import: modules.face_blur.plugin
+    shortcut: b
+    enable: false
+
+  - import: modules.fire_detection.plugin
+    shortcut: f
+    enable: false
+
+  - import: modules.security.plugin
+    shortcut: s
+    enable: false
+
+  - import: modules.phone_drive_safe.plugin
+    shortcut: p
+    enable: false
