@@ -13,7 +13,7 @@ class FireDetectionModule(VideoModule):
         self.model = YOLO(model_path)
 
     def process(self, frame):
-        results = self.model.predict(frame, conf=0.50, verbose=False)
+        results = self.model.predict(frame, conf=0.25, verbose=False)
 
         for box in results[0].boxes:
             coordinates = box.xyxy[0].cpu().tolist()
