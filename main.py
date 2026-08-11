@@ -9,9 +9,6 @@ BASE_DIR = Path(__file__).resolve().parent
 config_path = BASE_DIR / "config" / "modules.yaml"
 
 
-
-
-
 def main():
 
     args = parse_args()

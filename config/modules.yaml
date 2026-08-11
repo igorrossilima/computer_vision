@@ -7,10 +7,13 @@ modules:
     shortcut: f
     enabled: false
 
-  - import: modules.security.plugin
-    shortcut: s
-    enabled: false
-
-  # - import: modules.phone_drive_safe.plugin
-  #   shortcut: p
+  # - import: modules.security.plugin
+  #   shortcut: s
   #   enabled: false
+  #   options:
+  #     roi: [0.40, 0.32, 0.73, 0.97]
+  #     confidence: 0.4
+
+  - import: modules.phone_drive_safe.plugin
+    shortcut: p
+    enabled: false
