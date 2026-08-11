@@ -7,10 +7,10 @@ modules:
     shortcut: f
     enabled: false
 
-  - import: modules.security.plugin
-    shortcut: s
-    enabled: false
+  # - import: modules.security.plugin
+  #   shortcut: s
+  #   enabled: false
 
-  - import: modules.phone_drive_safe.plugin
-    shortcut: p
-    enabled: false
+  # - import: modules.phone_drive_safe.plugin
+  #   shortcut: p
+  #   enabled: false

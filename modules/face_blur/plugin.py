@@ -39,3 +39,6 @@ class FaceBlurModule(VideoModule):
 
 
         return frame
+
+def create_module() -> VideoModule:
+    return FaceBlurModule()

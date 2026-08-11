@@ -8,7 +8,6 @@ class VideoModule(ABC):
     def start(self) -> None:
         pass
 
-
     @abstractmethod
     def process(self, frame: np.ndarray) -> np.ndarray:
         pass
