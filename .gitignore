@@ -2,7 +2,12 @@
 **/venv/
 **/__pycache__/
 .env
-yolov8n.pt
-yolov8x.pt
+*.pt
+training/data/**/raw/
+training/data/**/extracted/
+training/data/**/datasets/
+training/runs/
+
+# Arquivos locais
 colinha.txt
 blaze_face_short_range.tflite
